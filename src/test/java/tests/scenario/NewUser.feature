@@ -1,4 +1,4 @@
-Feature: Login
+Feature: Create Search and Delete New User
 
   @HRM
   Scenario Outline: Create New User By Admin And Login With The New User

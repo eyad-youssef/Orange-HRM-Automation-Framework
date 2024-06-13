@@ -5,7 +5,7 @@ import io.cucumber.java.en.Then;
 import org.testng.Assert;
 import tests.BaseTest;
 
-public class CreateNewUserStepDefinition extends BaseTest {
+public class NewUserStepDefinition extends BaseTest {
 
     int oldCount;
     int updatedCount ;

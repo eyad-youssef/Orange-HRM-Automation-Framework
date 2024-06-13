@@ -3,7 +3,7 @@
 
     <test name="HRM">
         <classes>
-            <class name="tests.scenario.CreateNewUserStepDefinition" />
+            <class name="tests.scenario.NewUserStepDefinition" />
         </classes>
     </test>
 </suite>

@@ -14,6 +14,12 @@ public class HooksHandler extends BaseTest {
 
     }
 
+    @BeforeTest
+    public void finalize(){
+        webDriver.resetCache();
+        webDriver.close();
+    }
+
 
 
 }

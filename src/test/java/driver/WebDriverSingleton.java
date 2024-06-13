@@ -39,14 +39,16 @@ public class WebDriverSingleton {
     }
 
     public void refreshCurrentUrl() {
+
         webDriver.navigate().refresh();
     }
 
     public void resetCache() {
+
         webDriver.manage().deleteAllCookies();
     }
 
-    public static void close() {
+    public void close() {
         webDriver.quit();
     }
 }
