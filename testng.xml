@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Your Test Suite">
+
+    <test name="HRM">
+        <classes>
+            <class name="tests.scenario.CreateNewUserStepDefinition" />
+        </classes>
+    </test>
+</suite>
